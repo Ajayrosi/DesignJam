@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tripr</title>
+    <style>
+     @import url('https://fonts.googleapis.com/css2?family=Delicious+Handrawn&family=Fasthand&family=Montserrat&family=Playfair+Display&family=Poppins:ital,wght@1,200&display=swap');
+
+*{
+  margin: 0px;
+  padding: 0px;
+  color: white;
+  text-decoration: none;
+}
+
+
+nav{
+  width:100%;
+  height: 65px;
+  background-color: #2C3333;
+  position: relative;
+  
+}
+nav .logo{
+  font-size: 45px;
+  letter-spacing: 2px;
+  padding-left: 100px;
+  color: #fff;
+  font-family: 'Fasthand', cursive;
+}
+nav ul{
+  float: right;
+  
+}
+nav ul li{
+  display: inline-block;
+  margin: 0px 30px;
+  font-size: 19px;
+  margin-top: 26px;
+  margin-right: 50px;
+  font-family: 'Playfair Display', serif;
+  text-transform: uppercase;
+  
+}
+.first{
+  margin-top: 0.5px;
+  height: 768px;
+  background-image: url("we.png");
+  background-repeat: no-repeat;
+       }
+.second{
+   height: 800px;
+   background-color: black;
+    
+   }
+.container{
+  display: flex;
+  gap: 25px;
+  padding-top: 60px;
+  padding-left:150px;
+  transition: 0.5s ease;
+  cursor:pointer;
+}
+.card1{
+  height: 300px;
+  width: 230px;
+  border-style: solid;
+  border-color: black;
+  border-radius: 15px;
+  border-width: 0.5px;
+  
+}
+.card2{
+  height: 300px;
+  width: 230px;
+  border-style: solid;
+  border-color: black;
+  border-radius: 15px;
+  border-width: 0.5px;
+}
+.card3{
+  height: 300px;
+  width: 230px;
+  
+  border-style: solid;
+  border-color: black;
+  border-radius: 15px;
+  border-width: 0.5px;
+}
+.card4{
+  height: 300px;
+  width: 230px;
+  border-style: solid;
+  border-color: black;
+  border-radius: 15px;
+  border-width: 0.5px;
+}
+.card5{
+  height: 300px;
+  width: 230px;
+  border-style: solid;
+  border-color: black;
+  border-radius: 15px;
+  border-width: 0.5px;
+}
+.card6{
+  height: 300px;
+  width: 230px;
+  border-style: solid;
+  border-color: black;
+  border-radius: 15px;
+  border-width: 0.5px;
+}
+.card7{
+  height: 300px;
+  width: 230px;
+  border-style: solid;
+  border-color: black;
+  border-radius: 15px;
+  border-width: 0.5px;
+}
+.card8{
+  height: 300px;
+  width: 230px;
+  border-style: solid;
+  border-color: black;
+  border-radius: 15px;
+  border-width: 0.5px;
+}
+.place1{
+  height: 150px;
+  background-image: url(munnar.png);
+  background-size: cover;
+  border-radius: 15px;
+  margin-bottom: 10px;
+  transition: 0.5s ease;
+  cursor:pointer;
+}
+
+.place1:hover{
+  transform: scale(1.2);
+  box-shadow: 5px 5px 15px black;
+}
+.place2{
+  height: 150px;
+  background-image: url(taj.jpg);
+  background-size: cover;
+  border-radius: 15px;
+  margin-bottom: 10px;
+  transition: 0.5s ease;
+  cursor:pointer;
+}
+.place2:hover{
+  transform: scale(1.2);
+  box-shadow: 5px 5px 15px black;
+}
+
+
+.place3{
+  height: 150px;
+  background-image: url(andaman.png);
+  background-size: cover;
+  border-radius: 15px;
+  margin-bottom: 10px;
+  transition: 0.5s ease;
+  cursor:pointer;
+}
+.place3:hover{
+  transform: scale(1.2);
+  box-shadow: 5px 5px 15px black;
+}
+.place4{
+  height: 150px;
+  background-image: url(kerela.png);
+  background-size: cover;
+  border-radius: 15px;
+  margin-bottom: 10px;
+  transition: 0.5s ease;
+  cursor:pointer;
+}
+.place4:hover{
+  transform: scale(1.2);
+  box-shadow: 5px 5px 15px black;
+}
+.place5{
+  height: 150px;
+  background-image: url(thanjai.png);
+  background-size: cover;
+  border-radius: 15px;
+  margin-bottom: 10px;
+  transition: 0.5s ease;
+  cursor:pointer;
+}
+.place5:hover{
+  transform: scale(1.2);
+  box-shadow: 5px 5px 15px black;
+}
+.place6{
+  height: 150px;
+  background-image: url(goa.png);
+  background-size: cover;
+  border-radius: 15px;
+  margin-bottom: 10px;
+  transition: 0.5s ease;
+  cursor:pointer;
+}
+.place6:hover{
+  transform: scale(1.2);
+  box-shadow: 5px 5px 15px black;
+}
+.place7{
+  height: 150px;
+  background-image: url(ladak.png);
+  background-size: cover;
+  border-radius: 15px;
+  margin-bottom: 10px;
+  transition: 0.5s ease;
+  cursor:pointer;
+}
+.place7:hover{
+  transform: scale(1.2);
+  box-shadow: 5px 5px 15px black;
+}
+.place8{
+  height: 150px;
+  background-image: url(darjeeling.png);
+  background-size: cover;
+  border-radius: 15px;
+  margin-bottom: 10px;
+  transition: 0.5s ease;
+  cursor:pointer;
+}
+.place8:hover{
+  transform: scale(1.2);
+  box-shadow: 5px 5px 15px black;
+}
+ h1{
+  font-size: 20px;
+  text-align: center;
+  font-family: 'poppins',sans-serif;
+  
+  text-transform: uppercase;
+}
+p{
+  margin-left: 10px;
+  font-size:16px ;
+  font-family: 'poppins', Arial, sans-serif;
+}
+
+.but{
+  background-color: aqua;
+  margin: 6px 0px 0px 70px;
+  padding: 10px 10px 10px 10px;
+  border-radius: 5px;
+  border-width: 0.5px;
+  transition: 0.3s ease;
+  cursor:pointer;
+}
+.but a{
+  letter-spacing: 2px;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.but:hover{
+  box-shadow: 2px 2px 3px;
+  transform: scale(1.2);
+  box-shadow: 5px 5px 15px black;
+}
+
+
+
+
+
+
+
+</style>
+</head>
+<body>
+  <nav>
+      <label class="logo" style="letter-spacing: 10px;">Tripr</label>
+      <ul>
+        <li><a href="#">travel tips</a></li>
+        <li><a href="#">About us</a></li>
+        <li><a href="#">ratings</a></li>
+        <li><a href="#">Login</a></li>
+      </ul>
+      </nav>
+      
+      <div class="first"></div>
+    <div class="second">
+        <section>
+          <div class="container">
+            <div class="card1">
+              <div class="place1"></div>
+              <h1>munnar</h1>
+              <p>Located in kerela, one of the beautifull place u must visit</p>
+              <button class="but" ><a href="https://en.wikipedia.org/wiki/Munnar">Read More</a></button>
+            </div>
+            <div class="card2">
+              <div class="place2"></div>
+              <h1 >Taj Mahal</h1>
+              <p >The Taj Mahal is an ivory-white  mausoleum located in the Indian city of Agra</p>
+              <button class="but" ><a href="https://en.wikipedia.org/wiki/Taj_Mahal">Read More</a></button>
+            </div>
+            <div class="card3">
+              <div class="place3"></div>
+              <h1>scenic islands</h1>
+              <p>Located in Andaman nicobar island ,one of the beautifull place u must visit.</p>
+              <button class="but" ><a href="https://en.wikipedia.org/wiki/Andaman_and_Nicobar_Islands">Read More</a></button>
+            </div>
+            <div class="card4">
+              <div class="place4"></div>
+              <h1>kerela</h1>
+              <p>Located near TamilNadu,one of the beautifull place u must visit.</p>
+              <button class="but" ><a href="https://en.wikipedia.org/wiki/Kerala">Read More</a></button>
+            </div>
+          </div>
+        </section>
+        <section>
+          <div class="container">
+            <div class="card5">
+              <div class="place5"></div>
+              <h1>Thanjai kovil</h1>
+              <p>Located in Tamil Nadu ,one of the beautifull place u must visit.</p>
+              <button class="but" ><a href="https://en.wikipedia.org/wiki/Brihadisvara_Temple,_Thanjavur">Read More</a></button>
+            </div>
+            <div class="card6">
+              <div class="place6"></div>
+              <h1 >goa</h1>
+              <p >Located near Karnataka ,one of the beautifull place u must visit.</p>
+              <button class="but" ><a href="https://en.wikipedia.org/wiki/Goa" >Read More</a></button>
+            </div>
+            <div class="card7">
+              <div class="place7"></div>
+              <h1>ladakh</h1>
+              <p>Located in northern part of india ,one of the beautifull place u must visit.</p>
+              <button class="but" ><a href="https://en.wikipedia.org/wiki/Ladakh">Read More</a></button>
+            </div>
+            <div class="card8">
+              <div class="place8"></div>
+              <h1>darjeeling</h1>
+              <p>Located in WestBengal ,one of the beautifull place u must visit.</p>
+              <button class="but" ><a href="https://en.wikipedia.org/wiki/Darjeeling">Read More</a></button>
+            </div>
+          </div>
+        </section>
+    </div>
+      
+      
+
+    
+</body>
+</html>
